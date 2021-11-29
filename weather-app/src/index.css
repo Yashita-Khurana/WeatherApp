@@ -13,7 +13,7 @@ body {
   background-image: url('./assets/cold-bg.jpg');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 0.8s ease-in-out;
 }
 
 .app.warm {
@@ -48,7 +48,7 @@ main {
   transition: 0.4 ease;
 }
 
-.search-box .search-bar :focus {
+.search-box .search-bar:focus{
   background-color: rgba(255,255,255,0.75);
 }
 
@@ -88,6 +88,13 @@ text-align: center;
   text-shadow: 3px 6px rgba(50,50,70,0.5);
   text-align: center;
   box-shadow : 3px 6px rgba(0,0,0,0.2);
+}
+
+.weather-box .weather {
+  color:#FFF;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5) ;
 }
 
 
